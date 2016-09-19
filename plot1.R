@@ -24,8 +24,7 @@ plot1 <- hist(hpc$Global_active_power,col = "red",xlab = "Global Active Power (k
 #print to png file 480 x 480
 dev.copy(png,file = "./plot1.png")
 
-dev.cur()
 dev.off()
-dev.cur()
+
 
 # end
